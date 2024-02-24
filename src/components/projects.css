@@ -1,0 +1,16 @@
+.project-sec-1{
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.project-sec-2{
+    padding-top: 50px;
+}
+.project-card{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

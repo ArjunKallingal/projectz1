@@ -1,0 +1,135 @@
+.about-sc-1 {
+    /* height: 600px; */
+    background-color: darkblue;
+    padding: 150px;
+}
+
+.a-s-1 {
+    border-left: 2px solid white;
+    height: 100px;
+}
+
+.abouit-img-1 {
+    background-image: url('../assets/img1.webp');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+.about-sc-2 {
+    margin-top: 100px;
+}
+
+.about-sc-3 {
+    height: 700px;
+    background-color: rgb(17, 17, 112);
+    margin-top: 100px;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+.about-sc-4-img img {
+    height: 300px;
+    border-radius: 15px;
+
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+.about-sc-4-img img:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.about-sc-4 {
+    margin-top: 100px;
+}
+
+.about-sc-4-topic img {
+    height: 100px;
+}
+
+.about-our-team img {
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.scroll-container {
+    background-color: white;
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.scroll-container img {
+    transition: 1s ease;
+}
+
+.scroll-container img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.a-s-2 {
+    border-left: 2px solid #000;
+    height: 100px;
+}
+.abt-vid{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+}
+
+@media (max-width:800px){
+    .about-sc-1 {
+        background-color: darkblue;
+        padding: 25px;
+    }
+    .about-sc-3 {
+        background-color: rgb(17, 17, 112);
+        margin-top: 100px;
+        border-radius: 50px;
+        margin-right: 25px;
+        margin-left: 25px;
+        text-align: center;
+        padding: 10%;
+        color: white;
+        padding-top: 50px;
+        height: auto;
+    }
+    .abt-vid{
+        width: 90%; /* 100% of the viewport width */
+        height: auto;
+    }
+    .about-sc-4-img img  {
+        display: none;
+    }
+    .a-s-1 {
+        border-left: 2px solid white;
+        height: 150px;
+    }
+    .a-s-2 {
+        border-left: 2px solid #000;
+        height: 150px;
+    }
+    .scroll-container {
+        background-color: white;
+        overflow: scroll;
+        white-space: nowrap;
+        padding: 10px;
+        margin-top: 50px;
+    }
+}

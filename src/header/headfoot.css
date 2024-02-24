@@ -1,0 +1,20 @@
+.head {
+    position: sticky;
+    top: 0;
+}
+.company-logo{
+    background-color: blueviolet;
+    background-image: url('../assets/WhatsApp\ Image\ 2024-02-22\ at\ 9.11.49\ AM.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    .head-news p{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+.fdbk-body{
+    background-color: rgb(224, 224, 224);
+    padding: 30px;
+}
+.fdbk-1{
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.fdbk-head{
+    width: 100%;
+    border: 1px solid black;
+}
+.fdbk-ta{
+    height: 300px;
+}
+.fdbk-btn{
+    width: 100%;
+}
+@media (max-width:800px){
+    .fdbk-1{
+        background-color: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+}

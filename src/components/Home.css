@@ -1,0 +1,15 @@
+.homesize{
+    width: 100%;
+    height: 600px;
+    background-image: url('../assets/home-mast.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.homesize h1{
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: xxx-large;
+    font-family: emoji;
+    
+}
